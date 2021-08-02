@@ -1,0 +1,31 @@
+.container_range_vertical {
+    height:200px;
+    width: 10px;
+    position: relative;
+    margin-left: 50px;
+}
+
+.rangeVertical {
+    width: 10px;
+    height:200px;
+    border-radius: 1px solid #000;
+    background: #AFAFAF;
+    border-radius: 5px;
+}
+
+.field_range_vertical {
+    background: #b36;
+    width: 10px;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.thumbVertical {
+    position: absolute;
+    width:18px;
+    height: 18px;
+    background: #b36;
+    border-radius: 50%;
+    left: -4px;
+    cursor: pointer;
+}
