@@ -13,31 +13,30 @@
     
     
     <div class="container_range">
-        <div class="range">
+        <div id="slider" class="range range_horizontal" tip="on" condition="horizontal" bar="on" range="double" steps="1" maximum="5000" minimum="0" index="1">
             <div class="field_range" style="width:0%; left:0;"></div>
-            <div class="valueTop valueTopLeft" style="left:20%;"></div>
+            <div class="valueTop valueTopLeft" style="left:25%;"></div>
             <div class="thumb thumbLeft" style="width:10px;
-            height:18px; left:1%;" value></div>
-            <div class="valueTop valueTopRight" style="left:20%;"></div>
+            height:18px; left:25%;"></div>
+            <div class="valueTop valueTopRight" style="left:65%;"></div>
             <div class="thumb thumbRight" style="width:10px;
-            height:18px; left:40%;"></div>
+            height:18px; left:65%;"></div>
         </div>
         <div class="steps">
             <div class="startStep"></div>
             <div class="stepsIn" style="width:100%;"></div>
             <div class="endStep"></div>
-
         </div>
     </div>
 
-    <div class="container_range_vertical">
+    <!-- <div class="container_range_vertical">
         <div class="rangeVertical">
             <div class="field_range_vertical" style="height:10%; left:0;"></div>
-            <div class="thumbVertical thumbTop" style="top:1%;" value></div>
+            <div class="thumbVertical thumbTop" style="top:1%;" value></div> -->
             <!-- <div class="thumb thumbDown" style="width:18px;
             height:18px; left:40%;"></div> -->
-        </div>
-    </div>
+        <!-- </div>
+    </div> -->
     
 
     
@@ -60,20 +59,20 @@
         <div class="output_container">
             <div class="min">
                 <span>Минимум: </span>
-                <input type="number" id="minimum" min="0" value="0">
+                <input type="number" id="minimum" value="0" min="0">
             </div>
             <div class="max">
                 <span>Максимум: </span>
-                <input type="number" id="maximum" max="1" value="1">
+                <input type="number" id="maximum" value="5000" max="5000">
             </div>
             <!-- <div class="steps"></div> -->
             <div class="from">
                 <span>from: </span>
-                <input type = "number" id = "valueLeft" max="5000" min="0" maxlength="5" size="6" value="0" step="1">
+                <input type = "number" id = "valueLeft" max="5000" min="0" maxlength="5" size="6" value="1100" step="1">
             </div>
             <div class="to">
                 <span>to: </span>
-                <input type = "number" id = "valueRight" max="5000" min="0" maxlength="5" size="6" value="0" step="1">
+                <input type = "number" id = "valueRight" max="5000" min="0" maxlength="5" size="6" value="3400" step="1">
             </div>
             <div class="steps1">
                 <span id="instep">steps:</span>
@@ -97,6 +96,6 @@
 
 
     <script src="main.js"></script>
-    <script src="range.js"></script>
+    <script src="range1.js"></script>
 </body>
 </html>
